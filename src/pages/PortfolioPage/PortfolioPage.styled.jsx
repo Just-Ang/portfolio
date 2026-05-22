@@ -95,9 +95,10 @@ export const GridGallery = styled.div`
 
   /* режим 2x2 */
   &.simple {
-    grid-template-columns: repeat(2, 1fr);
+  
      margin-bottom:30px;
     @media screen and (min-width: 768px) {
+          grid-template-columns: repeat(2, 1fr);
          margin-bottom:50px; 
     }
   }
@@ -105,7 +106,11 @@ export const GridGallery = styled.div`
   /* режим асиметрії */
   &.asymmetric {
     margin-bottom:20px;
-    grid-template-columns: repeat(3, 1fr);
+   
+     @media screen and (min-width: 768px) {
+         grid-template-columns: repeat(3, 1fr);
+         margin-bottom:50px; 
+    }
   }
 `;
 

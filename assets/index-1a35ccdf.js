@@ -752,9 +752,10 @@ background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
 
   /* режим 2x2 */
   &.simple {
-    grid-template-columns: repeat(2, 1fr);
+  
      margin-bottom:30px;
     @media screen and (min-width: 768px) {
+          grid-template-columns: repeat(2, 1fr);
          margin-bottom:50px; 
     }
   }
@@ -762,7 +763,11 @@ background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
   /* режим асиметрії */
   &.asymmetric {
     margin-bottom:20px;
-    grid-template-columns: repeat(3, 1fr);
+   
+     @media screen and (min-width: 768px) {
+         grid-template-columns: repeat(3, 1fr);
+         margin-bottom:50px; 
+    }
   }
 `,Wc=O.div`
   width: 100%;

@@ -5,6 +5,7 @@ import ErrorPage from 'pages/ErrorPage/ErrorPage';
 import { AppWrapper } from './App.styled';
 import { GlobalStyles } from './styles/GlobalStyles';
 import HomePage from './pages/HomePage/HomePage';
+import { PortfolioPage } from './pages/PortfolioPage/PortfolioPage';
 
 
 
@@ -16,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<SharedLayout />}>
     <Route index element={<HomePage />} />
+
+          <Route path="/portfolio" element={<PortfolioPage />} />
          
           <Route path="*" element={<ErrorPage />} />
         </Route>

@@ -583,7 +583,7 @@ background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
       rgba(0, 0, 0, 0.6),   
       rgba(0, 0, 0, 0)      
     ),
-    url("/images/img3.JPG");
+    url(${"/portfolio/"}images/img3.JPG)
  
   }
  @media screen and (min-width: 1200px) {
@@ -793,12 +793,12 @@ background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(100%); /* Робимо фото чорно-білими, як у тебе на скріншоті */
+  /* filter: grayscale(100%);  */
   transition: filter 0.4s ease, transform 0.4s ease;
 
   &:hover {
-    filter: grayscale(0%); /* При наведенні фото стає кольоровим (можна прибрати, якщо хочеш суворий ч/б) */
-    transform: scale(1.01);
+    /* filter: grayscale(0%); */
+    transform: scale(1.02);
   }
 `,Oy=O.button`
   background: none;

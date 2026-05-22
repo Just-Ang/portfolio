@@ -557,7 +557,7 @@ Error generating stack: `+o.message+`
 `,hy=()=>P.jsx(iy,{children:P.jsxs(oy,{children:[P.jsxs(ly,{children:[P.jsx(sy,{src:"/images/img9.JPG",alt:"main-photo"}),P.jsxs(cy,{children:[P.jsx(ay,{children:"Про мене"}),P.jsxs(uy,{children:[P.jsxs(Uc,{children:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores a quod! Voluptatem repudiandae veniam perferendis impedit vel sequi atque."," "]}),P.jsxs(Uc,{children:["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui doloribus totam."," "]})]})]})]}),P.jsxs(fy,{children:[P.jsx(dy,{src:"/images/img8.JPG",alt:"top-image"}),P.jsx(py,{src:"/images/img10.JPG",alt:"bottom-image"})]})]})}),my=M.section`
 
 
-  background-image: url("./images/img5.JPG");
+  background-image: url(""/portfolio/" + 'images/img5.JPG'");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

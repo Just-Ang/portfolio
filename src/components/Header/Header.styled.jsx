@@ -7,7 +7,7 @@ export const HeaderSection = styled.header`
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(251, 251, 251, 0.522);
+  border-bottom: 1px solid rgba(134, 134, 134, 0.411);
   background-color: rgb(255, 255, 255)
 `;
 

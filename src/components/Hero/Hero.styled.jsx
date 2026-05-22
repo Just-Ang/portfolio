@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const HeroSection = styled.section`
 
 
-  background-image: url("/images/img5.JPG");
+  background-image: url("./images/img5.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

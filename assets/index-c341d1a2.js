@@ -71,7 +71,7 @@ Error generating stack: `+o.message+`
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(251, 251, 251, 0.522);
+  border-bottom: 1px solid rgba(134, 134, 134, 0.411);
   background-color: rgb(255, 255, 255)
 `,Ng=M.div`
   width: 100%;
@@ -557,7 +557,7 @@ Error generating stack: `+o.message+`
 `,hy=()=>P.jsx(iy,{children:P.jsxs(oy,{children:[P.jsxs(ly,{children:[P.jsx(sy,{src:"/images/img9.JPG",alt:"main-photo"}),P.jsxs(cy,{children:[P.jsx(ay,{children:"Про мене"}),P.jsxs(uy,{children:[P.jsxs(Uc,{children:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores a quod! Voluptatem repudiandae veniam perferendis impedit vel sequi atque."," "]}),P.jsxs(Uc,{children:["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui doloribus totam."," "]})]})]})]}),P.jsxs(fy,{children:[P.jsx(dy,{src:"/images/img8.JPG",alt:"top-image"}),P.jsx(py,{src:"/images/img10.JPG",alt:"bottom-image"})]})]})}),my=M.section`
 
 
-  background-image: url("/images/img5.JPG");
+  background-image: url("./images/img5.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

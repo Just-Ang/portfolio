@@ -17,8 +17,10 @@ const About = () => {
     <Container>
       <AboutSection>
         <LeftContent>
-          <MainPhoto src="/images/img9.JPG" alt="main-photo" />
-
+<MainPhoto
+  src={`${import.meta.env.BASE_URL}images/img9.JPG`}
+  alt="main-photo"
+/>
           <DescriptionWrapper>
             <Title>Про мене</Title>
           <Wrapper>
@@ -38,8 +40,8 @@ const About = () => {
         </LeftContent>
 
         <RightGallery>
-          <TopImage src="/images/img8.JPG" alt="top-image" />
-          <BottomImage src="/images/img10.JPG" alt="bottom-image" />
+          <TopImage   src={`${import.meta.env.BASE_URL}images/img8.JPG`} alt="top-image" />
+          <BottomImage   src={`${import.meta.env.BASE_URL}images/img10.JPG`} alt="bottom-image" />
         </RightGallery>
       </AboutSection>
     </Container>

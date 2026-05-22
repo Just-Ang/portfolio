@@ -45,7 +45,6 @@ export const PortfolioPage = () => {
     ? initialPhotos 
     : initialPhotos.filter(photo => photo.category === activeTab);
 
-  // Фото, які відображаються зараз
 
 
 
@@ -71,8 +70,7 @@ const restBlock = displayedPhotos.slice(4);
         ))}
       </TabList>
 
-      {/* Асиметрична журнальна сітка */}
-     {/* 🔷 ПЕРШІ 4 — асиметрія */}
+    
 <GridGallery className="asymmetric">
   {firstBlock.map((photo) => (
     <GridItem key={photo.id} $type={photo.type} $layout="asymmetric">
@@ -92,7 +90,6 @@ const restBlock = displayedPhotos.slice(4);
   </GridGallery>
 )}
 
-      {/* Кнопка розгортання */}
       {filteredPhotos.length > visibleCount && (
         <ExpandButton onClick={() => setVisibleCount(prev => prev + 4)}>
           Показати ще ↓

@@ -554,11 +554,10 @@ Error generating stack: `+o.message+`
   @media screen and (min-width: 768px) {
     transform: translate(-10%, 10%);
   }
-`,yy=()=>_.jsx(sy,{children:_.jsxs(uy,{children:[_.jsxs(cy,{children:[_.jsx(dy,{src:"/images/img9.JPG",alt:"main-photo"}),_.jsxs(hy,{children:[_.jsx(fy,{children:"Про мене"}),_.jsxs(py,{children:[_.jsxs(Uc,{children:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores a quod! Voluptatem repudiandae veniam perferendis impedit vel sequi atque."," "]}),_.jsxs(Uc,{children:["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui doloribus totam."," "]})]})]})]}),_.jsxs(my,{children:[_.jsx(gy,{src:"/images/img8.JPG",alt:"top-image"}),_.jsx(vy,{src:"/images/img10.JPG",alt:"bottom-image"})]})]})}),wy=O.section`
+`,yy=()=>_.jsx(sy,{children:_.jsxs(uy,{children:[_.jsxs(cy,{children:[_.jsx(dy,{src:"/portfolio/images/img9.JPG",alt:"main-photo"}),_.jsxs(hy,{children:[_.jsx(fy,{children:"Про мене"}),_.jsxs(py,{children:[_.jsxs(Uc,{children:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores a quod! Voluptatem repudiandae veniam perferendis impedit vel sequi atque."," "]}),_.jsxs(Uc,{children:["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui doloribus totam."," "]})]})]})]}),_.jsxs(my,{children:[_.jsx(gy,{src:"/portfolio/images/img8.JPG",alt:"top-image"}),_.jsx(vy,{src:"/portfolio/images/img10.JPG",alt:"bottom-image"})]})]})}),wy=O.section`
 
 
-  background-image: url(""/portfolio/" + 'images/img5.JPG'");
-  background-size: cover;
+background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -692,10 +691,11 @@ Error generating stack: `+o.message+`
   }
 `,Ry=O.h2`
   font-size: 24px;
-  font-weight: 400;
+  font-family: var(--second-font);
+  font-weight: 800;
   letter-spacing: 0.05em;
   text-align: left;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 25px;
   color: #000000;
   text-transform: capitalize;
@@ -753,6 +753,10 @@ Error generating stack: `+o.message+`
   /* режим 2x2 */
   &.simple {
     grid-template-columns: repeat(2, 1fr);
+     margin-bottom:30px;
+    @media screen and (min-width: 768px) {
+         margin-bottom:50px; 
+    }
   }
 
   /* режим асиметрії */
@@ -781,7 +785,8 @@ Error generating stack: `+o.message+`
     ${e=>e.$layout==="asymmetric"&&e.$type==="tall"&&`
       grid-column: span 1;
       grid-row: span 2;
-      aspect-ratio: 1 / 2;
+      height:100%;
+    //   aspect-ratio: 1 / 2;
     `}
   }
 `,Vc=O.img`
@@ -798,14 +803,19 @@ Error generating stack: `+o.message+`
 `,Oy=O.button`
   background: none;
   border: none;
-  font-size: 13px;
-  color: #000000;
+  font-size: 18px;
+  color: var(--black-color);
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
   cursor: pointer;
   align-self: flex-start; 
   font-weight: 300;
   transition: opacity 0.2s ease;
+  margin-bottom:30px;
+    @media screen and (min-width: 768px) {
+         margin-bottom:50px; 
+    }
+
 
   &:hover {
     opacity: 0.7;

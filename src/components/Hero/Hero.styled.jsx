@@ -11,18 +11,21 @@ export const HeroSection = styled.section`
   background-repeat: no-repeat;
 
   background-color: #111111;
-
+  
   color: #ffffff;
   min-height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
+  justify-content: center;
   padding: 4rem 10%;
   position: relative;
 
     width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  @media screen and (min-width: 768px) {
+      justify-content: space-between;
     background-image: 
     linear-gradient(
       to right,
@@ -30,6 +33,8 @@ export const HeroSection = styled.section`
       rgba(0, 0, 0, 0)      
     ),
     url("/images/img3.JPG");
+ 
+  }
  @media screen and (min-width: 1200px) {
    
   }

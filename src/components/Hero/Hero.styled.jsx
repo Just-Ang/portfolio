@@ -31,7 +31,7 @@ background-image: url(${import.meta.env.BASE_URL}images/img5.JPG);  background-s
       rgba(0, 0, 0, 0.6),   
       rgba(0, 0, 0, 0)      
     ),
-    url("/images/img3.JPG");
+    url(${import.meta.env.BASE_URL}images/img3.JPG)
  
   }
  @media screen and (min-width: 1200px) {

@@ -42,6 +42,12 @@ export const HeroSection = styled.section`
 
 export const Content = styled.div`
   z-index: 2;
+  @media screen and (min-width: 768px) {
+   max-width: 50%
+  }
+ @media screen and (min-width: 1200px) {
+   
+  }
 `;
 
 export const Subtitle = styled.span`

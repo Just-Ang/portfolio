@@ -7,7 +7,8 @@ export const HeaderSection = styled.header`
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(251, 251, 251, 0.522);
+  background-color: rgb(255, 255, 255)
 `;
 
 export const HeaderContainer = styled.div`

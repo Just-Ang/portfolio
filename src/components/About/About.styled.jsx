@@ -98,10 +98,10 @@ export const Wrapper = styled.div`
 export const DescriptionWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  /* gap: 12px; */
 
   @media screen and (min-width: 768px) {
-    gap: 40px;
+   
   }
 `;
 
@@ -151,6 +151,7 @@ export const TopImage = styled.img`
   aspect-ratio: 1 / 1;
   object-fit: cover;
   z-index: 1;
+   border-radius: 4px; 
 
   @media screen and (min-width: 768px) {
     width: 72%;
@@ -167,6 +168,7 @@ export const BottomImage = styled.img`
   aspect-ratio: 1 / 1;
   object-fit: cover;
   z-index: 2;
+   border-radius: 4px; 
   transform: translate(-5%, 5%); 
 
   @media screen and (min-width: 768px) {

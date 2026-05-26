@@ -7,6 +7,7 @@ import { GlobalStyles } from './styles/GlobalStyles';
 import HomePage from './pages/HomePage/HomePage';
 import { PortfolioPage } from './pages/PortfolioPage/PortfolioPage';
 import { TariffsPage } from './pages/TariffsPage/TariffsPage';
+import { ContactsPage } from './pages/ContactsPage/ContactsPage';
 
 
 
@@ -21,6 +22,8 @@ function App() {
 
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/tariffs" element={<TariffsPage/>} />
+          <Route path="/contacts" element={<ContactsPage/>} />
+          
          
           <Route path="*" element={<ErrorPage />} />
         </Route>

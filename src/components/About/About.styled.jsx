@@ -4,15 +4,17 @@ export const Container = styled.div`
   width: 100%;
   max-width: 750px;
   margin-top: 20px;
-  
-  /* padding: 0 16px;  */
+padding-bottom:70px;
   box-sizing: border-box;
+  border-bottom: 1px solid #8e8e8e;
   font-family: var(--main-font);
+  
 
   @media screen and (min-width: 768px) {
     max-width: 994px;
     margin-top: 30px;
     padding: 0;
+    padding-bottom:40px;
   }
 
   @media screen and (min-width: 1200px) {

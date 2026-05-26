@@ -1,87 +1,51 @@
 import styled from "styled-components";
+export const Section = styled.section`
+    /* background-color:#ede4f566; */
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);`
 
 export const Container = styled.div`
   width: 100%;
   max-width: 750px;
   font-family: var(--main-font), sans-serif;
+  padding-top:40px;
 
-  padding-left: 10px;
-  padding-right: 10px;
+ 
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff; 
-  
+
+  padding-left: 10px;
+  padding-right: 10px;
+
   @media screen and (min-width: 768px) {
     max-width: 994px;
     padding-left: 30px;
     padding-right: 30px;
   }
-  @media screen and (min-width: 1200px) {
+ @media screen and (min-width: 1200px) {
     max-width: 1448px;
-  }
-`;
-
-export const Title = styled.h2`
-  font-size: 24px;
-  font-family: var(--second-font);
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-align: left;
-  margin-top: 20px;
-  margin-bottom: 25px;
-  color: #000000;
-  text-transform: capitalize;
-`;
-
-export const TabList = styled.ul`
-  display: flex;
-  gap: 24px;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 35px 0;
-  border-bottom: 1px solid #eaeaea;
-  overflow-x: auto; 
-  white-space: nowrap;
   
-  &::-webkit-scrollbar {
-    display: none; 
   }
+  
 `;
 
-export const TabItem = styled.li`
-  display: inline-block;
-`;
+export const TitlePortfolio =styled.h2`
+font-size:40px;
+font-family: var(--second-font);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 
-export const TabButton = styled.button`
-  background: none;
-  border: none;
-  font-size: 14px;
-  padding-bottom: 12px;
-  cursor: pointer;
-  color: ${props => props.$isActive ? '#000000' : '#8e8e93'};
-  font-weight: ${props => props.$isActive ? '400' : '300'};
-  position: relative;
-  transition: color 0.2s ease;
-
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #000000;
-    transform: ${props => props.$isActive ? 'scaleX(1)' : 'scaleX(0)'};
-    transition: transform 0.2s ease;
+     @media screen and (min-width: 768px) {
+   text-align: left;  margin-bottom: 30px;
   }
-
-  &:hover {
-    color: #000000;
-  }
-`;
+    
+`
 
 export const GridGallery = styled.div`
   display: grid;
@@ -152,27 +116,5 @@ export const Image = styled.img`
   &:hover {
     /* filter: grayscale(0%); */
     transform: scale(1.02);
-  }
-`;
-
-export const ExpandButton = styled.button`
-  background: none;
-  border: none;
-  font-size: 18px;
-  color: var(--black-color);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  cursor: pointer;
-  align-self: flex-start; 
-  font-weight: 300;
-  transition: opacity 0.2s ease;
-  margin-bottom:30px;
-    @media screen and (min-width: 768px) {
-         margin-bottom:50px; 
-    }
-
-
-  &:hover {
-    opacity: 0.7;
   }
 `;

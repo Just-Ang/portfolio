@@ -46,6 +46,7 @@ export const FlexWrap = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
+    border-bottom: 1px solid rgb(61, 60, 60);;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -83,6 +84,11 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 25px;
+  height: 100%;
+    justify-content: flex-start;
+  padding-bottom:35px;
+  
+
 `;
 
 export const Input = styled.input`
@@ -92,7 +98,7 @@ export const Input = styled.input`
   border: none;
   border-bottom: 1px solid #000000;
   color: #000000;
-  font-size: 0.95rem;
+  font-size:18px;
   outline: none;
   box-sizing: border-box;
 
@@ -162,7 +168,7 @@ export const ContactImage = styled.img`
 export const MetaRow = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 24px;
+
   padding-top: 10px;
 
   @media screen and (min-width: 768px) {
@@ -176,15 +182,18 @@ export const LocationBlock = styled.div`
   display: flex;
   flex-direction: column;
   gap: 8px;
+      padding-bottom: 35px;
 `;
 
 export const SocialBlock = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-bottom: 20px;
   
   @media screen and (min-width: 768px) {
     align-items: flex-end;
+     margin-bottom: 0px;
   }
 `;
 

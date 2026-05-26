@@ -47,7 +47,7 @@ export const GridContainer = styled.div`
   display: flex;
   flex-direction: column;
    
-  border-top: 1px solid rgba(134, 134, 134, 0.411);;
+  /* border-top: 1px solid rgba(134, 134, 134, 0.411);; */
   border-bottom: 1px solid rgba(134, 134, 134, 0.411);;
 
   @media screen and (min-width: 768px) {

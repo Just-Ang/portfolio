@@ -30,7 +30,7 @@ export const ContactsPage = () => {
       );
 
       if (response.ok) {
-        toast.info(`Дякую, ${formData.name}! Ми зв'яжемося з вами.`, {
+        toast.info(`Дякую, ${formData.name}! Я зв'яжусь з вами.`, {
           icon: false,
         });
         setFormData({ name: '', tel: '' });
@@ -106,7 +106,7 @@ export const ContactsPage = () => {
             </S.LocationBlock>
 
             <S.SocialBlock>
-              <S.MetaLabel>Зв11язок</S.MetaLabel>
+          <S.MetaLabel>Зв&apos;язок</S.MetaLabel>
               <S.IconGroup>
                 {/* Instagram */}
                 <S.IconLink

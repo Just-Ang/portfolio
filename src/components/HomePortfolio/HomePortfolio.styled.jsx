@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 export const Section = styled.section`
     /* background-color:#ede4f566; */
@@ -33,6 +34,14 @@ export const Container = styled.div`
   
 `;
 
+export const WrapperTop = styled.div`
+       display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+
+`
 export const TitlePortfolio =styled.h2`
 font-size:40px;
 font-family: var(--second-font);
@@ -118,3 +127,61 @@ export const Image = styled.img`
     transform: scale(1.02);
   }
 `;
+export const MoreBtn = styled(Link)`
+display: none;
+     width: 100%;
+  max-width: 280px;
+    
+
+  padding: 12px 24px;
+      text-align: center;
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+          margin-bottom: 30px;
+
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+  @media screen and (min-width: 768px) {
+ display: block;
+ 
+  }
+`
+export const MoreBtnDesctop = styled(Link)`
+display: block;
+     width: 100%;
+  max-width: 280px;
+  padding: 12px 24px;
+      text-align: center;
+        margin-right: auto;
+    margin-left: auto;
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+          margin-bottom: 30px;
+
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+  @media screen and (min-width: 768px) {
+ display: none;
+ 
+  }
+`

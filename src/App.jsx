@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage/HomePage';
 import { PortfolioPage } from './pages/PortfolioPage/PortfolioPage';
 import { TariffsPage } from './pages/TariffsPage/TariffsPage';
 import { ContactsPage } from './pages/ContactsPage/ContactsPage';
+import { ScrollToTop } from './components/ScrollToTop';
 
 
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <AppWrapper>
       <GlobalStyles />
+        <ScrollToTop />
       <Routes>
         <Route path="/" element={<SharedLayout />}>
     <Route index element={<HomePage />} />

@@ -1,4 +1,4 @@
-import { Container, GridGallery, GridItem, Image, Section, TitlePortfolio } from "./HomePortfolio.styled";
+import { Container, GridGallery, GridItem, Image, MoreBtn, MoreBtnDesctop, Section, TitlePortfolio, WrapperTop } from "./HomePortfolio.styled";
 
 export const HomePortfolio = () => {
 
@@ -17,7 +17,12 @@ const initialPhotos = [
     return(
         <Section>
    <Container>
-    <TitlePortfolio>Портфоліо</TitlePortfolio>
+   <WrapperTop>
+     <TitlePortfolio>Портфоліо</TitlePortfolio>
+     <MoreBtn to='/portfolio'>
+Переглянути портфоліо
+    </MoreBtn>
+   </WrapperTop>
     <GridGallery className="asymmetric">
       {initialPhotos.map((photo) => (
         <GridItem key={photo.id} $type={photo.type} $layout="asymmetric">
@@ -25,6 +30,10 @@ const initialPhotos = [
         </GridItem>
       ))}
     </GridGallery>
+     <MoreBtnDesctop to='/portfolio'>
+Переглянути портфоліо
+    </MoreBtnDesctop>
+   
 
    </Container>
    </Section>

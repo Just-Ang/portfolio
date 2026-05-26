@@ -6,6 +6,7 @@ import { AppWrapper } from './App.styled';
 import { GlobalStyles } from './styles/GlobalStyles';
 import HomePage from './pages/HomePage/HomePage';
 import { PortfolioPage } from './pages/PortfolioPage/PortfolioPage';
+import { TariffsPage } from './pages/TariffsPage/TariffsPage';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Route index element={<HomePage />} />
 
           <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/tariffs" element={<TariffsPage/>} />
          
           <Route path="*" element={<ErrorPage />} />
         </Route>

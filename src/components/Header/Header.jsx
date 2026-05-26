@@ -48,8 +48,8 @@ export default function Header()
                   </StyledLink>
                   <StyledLink  onClick={() => setMenuOpen(false)} to="/portfolio">
                    <BriefcaseBusiness color="#663f88" size={22} strokeWidth={1.5} />Портфоліо</StyledLink>
-                  <StyledLink onClick={() => setMenuOpen(false)} to="/reviews">
-                <MessageCircleMore color="#663f88" size={22} strokeWidth={1.5} />Відгуки</StyledLink>
+                  <StyledLink onClick={() => setMenuOpen(false)} to="/tariffs">
+                <MessageCircleMore color="#663f88" size={22} strokeWidth={1.5} />Тарифи</StyledLink>
                 
                   <StyledLink onClick={() => setMenuOpen(false)} to="/contacts">
                     <Mail color="#663f88" size={22} strokeWidth={1.5} /> Контакти

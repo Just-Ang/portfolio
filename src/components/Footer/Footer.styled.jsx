@@ -33,7 +33,7 @@ export const FooterContainer = styled.footer`
 
 export const FooterLogo = styled.div`
   font-family:var(--logo-font);
-  font-size: 22px;
+  font-size: 26px;
 
   color: #333;
   text-align: center;

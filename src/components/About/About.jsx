@@ -25,9 +25,9 @@ const About = () => {
             <Title>Про мене</Title>
           <Wrapper>
               <Description>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis maiores a quod! Voluptatem repudiandae veniam
-              perferendis impedit vel sequi atque.{' '}
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+              consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui
+              doloribus totam.{' '}
             </Description>
 
             <Description>

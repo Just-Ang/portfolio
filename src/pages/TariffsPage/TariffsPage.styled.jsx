@@ -62,6 +62,8 @@ export const Card = styled.div`
   justify-content: space-between;
   padding: 30px 0;
   border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+
 
   &:last-child {
     border-bottom: none;

@@ -30,9 +30,10 @@ export const NavLink = styled(Link)`
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 
   &:hover {
     color:var(--lavanda-color);
+    scale: 1.05;
   }
 `;

@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   justify-content: center;
   gap: 15px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
       display: flex;
       flex:1;
               justify-content: space-around;

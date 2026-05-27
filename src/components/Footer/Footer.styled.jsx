@@ -15,7 +15,7 @@ export const FooterContainer = styled.footer`
   gap: 25px;
 
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     max-width: 994px;
     padding: 40px 30px 25px 30px;
     
@@ -38,7 +38,7 @@ export const FooterLogo = styled.div`
   color: #333;
   text-align: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     text-align: left; 
   }
 `;
@@ -49,7 +49,7 @@ export const FooterNav = styled.nav`
   align-items: center;
   gap: 15px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
@@ -83,7 +83,7 @@ export const FooterContacts = styled.div`
   font-size: 13px;
   color: #333;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     align-items: flex-end; 
   }
 `;
@@ -96,7 +96,7 @@ export const Copyright = styled.p`
   color: #888;
   margin: 0;
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
 
     grid-column: 1 / -1; 
     margin-top: 20px;

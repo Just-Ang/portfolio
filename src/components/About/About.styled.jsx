@@ -90,7 +90,7 @@ export const MainPhoto = styled.img`
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 30px;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;

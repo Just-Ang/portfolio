@@ -60,7 +60,7 @@ export const InfoBlock = styled.div`
   width: 100%;
   justify-content: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
       display: flex;
     border-top: none;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
@@ -110,7 +110,7 @@ export const MenuButton = styled.button`
   font-weight: 600;
  
   cursor: pointer;
-   @media screen and (min-width: 768px) {
+   @media screen and (min-width: 769px) {
       display: none;
   
   }

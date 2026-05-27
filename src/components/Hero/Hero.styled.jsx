@@ -23,7 +23,7 @@ background-image: url(${import.meta.env.BASE_URL}images/img5.JPG);  background-s
     width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
       justify-content: space-between;
     background-image: 
     linear-gradient(
@@ -41,7 +41,7 @@ background-image: url(${import.meta.env.BASE_URL}images/img5.JPG);  background-s
 
 export const Content = styled.div`
   z-index: 2;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
    max-width: 50%
   }
  @media screen and (min-width: 1200px) {

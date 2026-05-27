@@ -162,7 +162,7 @@ export const ContactImage = styled.img`
   height: auto;
   aspect-ratio: 16 / 10;
   object-fit: cover;
-  filter: grayscale(100%);
+  
 `;
 
 export const MetaRow = styled.div`

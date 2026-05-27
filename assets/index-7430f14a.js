@@ -263,10 +263,11 @@ Error generating stack: `+i.message+`
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 
   &:hover {
     color:var(--lavanda-color);
+    scale: 1.05;
   }
 `,Cy=()=>g.jsxs(Ey,{children:[g.jsx(Tr,{to:"/",children:"Головна"}),g.jsx(Tr,{to:"/about",children:"Про мене"}),g.jsx(Tr,{to:"/portfolio",children:"Портфоліо"}),g.jsx(Tr,{to:"/tariffs",children:"Тарифи"}),g.jsx(Tr,{to:"/contacts",children:"Контакти"})]});/**
  * @license lucide-react v1.16.0 - ISC
@@ -368,7 +369,7 @@ Error generating stack: `+i.message+`
   }
 `,Ky=P.div`
   font-family:var(--logo-font);
-  font-size: 22px;
+  font-size: 26px;
 
   color: #333;
   text-align: center;
@@ -696,7 +697,7 @@ padding-bottom:70px;
   @media screen and (min-width: 768px) {
     transform: translate(-10%, 10%);
   }
-`,cx=()=>g.jsx(ex,{children:g.jsxs(tx,{children:[g.jsxs(nx,{children:[g.jsx(ox,{src:"/portfolio/images/img9.JPG",alt:"main-photo"}),g.jsxs(ax,{children:[g.jsx(rx,{children:"Про мене"}),g.jsxs(ix,{children:[g.jsxs(pf,{children:["Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores a quod! Voluptatem repudiandae veniam perferendis impedit vel sequi atque."," "]}),g.jsxs(pf,{children:["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui doloribus totam."," "]})]})]})]}),g.jsxs(lx,{children:[g.jsx(sx,{src:"/portfolio/images/img8.JPG",alt:"top-image"}),g.jsx(ux,{src:"/portfolio/images/img10.JPG",alt:"bottom-image"})]})]})}),fx=P.section`
+`,cx=()=>g.jsx(ex,{children:g.jsxs(tx,{children:[g.jsxs(nx,{children:[g.jsx(ox,{src:"/portfolio/images/img9.JPG",alt:"main-photo"}),g.jsxs(ax,{children:[g.jsx(rx,{children:"Про мене"}),g.jsxs(ix,{children:[g.jsxs(pf,{children:["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui doloribus totam."," "]}),g.jsxs(pf,{children:["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui doloribus totam."," "]})]})]})]}),g.jsxs(lx,{children:[g.jsx(sx,{src:"/portfolio/images/img8.JPG",alt:"top-image"}),g.jsx(ux,{src:"/portfolio/images/img10.JPG",alt:"bottom-image"})]})]})}),fx=P.section`
 
 
 background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
@@ -1195,6 +1196,8 @@ font-family: var(--main-font);
   justify-content: space-between;
   padding: 30px 0;
   border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+
 
   &:last-child {
     border-bottom: none;

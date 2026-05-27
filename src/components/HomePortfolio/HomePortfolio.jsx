@@ -7,10 +7,6 @@ const initialPhotos = [
   { id: 2, category: 'events', src: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6', type: 'small', alt: 'Наречена біля вікна' },
   { id: 3, category: 'portrait', src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb', type: 'wide', alt: 'Портрет дівчини в кашкеті' },
   { id: 4, category: 'portrait', src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d', type: 'tall', alt: 'Обійми на пероні' },
-
-  
-
-
 ];
 
 
@@ -18,7 +14,7 @@ const initialPhotos = [
         <Section>
    <Container>
    <WrapperTop>
-     <TitlePortfolio>Портфоліооо</TitlePortfolio>
+     <TitlePortfolio>Портфоліо</TitlePortfolio>
      <MoreBtn to='/portfolio'>
 Переглянути портфоліо
     </MoreBtn>

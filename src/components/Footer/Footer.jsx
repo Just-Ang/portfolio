@@ -1,0 +1,40 @@
+
+import {
+  FooterContainer,
+  FooterLogo,
+  FooterNav,
+  FooterLink,
+  FooterContacts,
+  Copyright
+} from './Footer.styled';
+
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <FooterContainer>
+      <FooterLogo>Diana J.</FooterLogo>
+      
+      <FooterNav>
+        <FooterLink to="/">Головна</FooterLink>
+        <FooterLink to="about">Про мене</FooterLink>
+        <FooterLink to="portfolio">Портфоліо</FooterLink>
+        <FooterLink to="tariffs">Тарифи</FooterLink>
+        <FooterLink to="contacts">Контакти</FooterLink>
+      </FooterNav>
+      
+      <FooterContacts>
+        <span>м. Київ</span>
+        <a href="tel:+380930000000" style={{ color: 'inherit', textDecoration: 'none' }}>
+          +38 093 000 00 00
+        </a>
+      </FooterContacts>
+
+      <Copyright>
+        &copy; {currentYear} Diana J. Photography. All rights reserved.
+      </Copyright>
+    </FooterContainer>
+  );
+};
+
+export default Footer;

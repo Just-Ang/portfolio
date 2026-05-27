@@ -38,7 +38,12 @@ export const HeaderContainer = styled.div`
 
 export const Logo = styled(Link)`
     font-family:var(--logo-font);
+      /* font-family: 'Playfair Display', Georgia, serif;  */
+
  font-size:30px;
+  
+  /* font-style: italic;
+  font-weight:200; */
   color: var(--black-color);
   text-decoration: none;
   letter-spacing: 1px;
@@ -111,9 +116,6 @@ export const MenuButton = styled.button`
   }
   
 
-  /* @media (max-width: 1023px) {
-    display: block;
-  } */
 
   cursor: pointer;
   transition: background 0.2s ease;
@@ -126,7 +128,7 @@ export const MobileMenu = styled.div`
   position: fixed;
   top: 0;
   right: 0;
-  width: 80%; /* Трохи вужче, щоб бачити фон */
+  width: 80%; 
   max-width: 350px;
   height: 100%;
   background: #ffffff;
@@ -170,11 +172,11 @@ export const StyledLink = styled(Link)`
   color: #2c2c2c;
   display: flex;
   align-items: center;
-  gap: 15px; /* Відступ між іконкою і текстом */
+  gap: 15px;
   transition: color 0.3s;
 
   svg {
-    color: #d35400; /* Колір як у вашої кнопки на фоні */
+    color: #d35400; 
     font-size: 24px;
   }
 
@@ -189,7 +191,7 @@ export const Overlay = styled.div`
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(4px); /* Гарне розмиття фону */
+  backdrop-filter: blur(4px);
   z-index: 999;
   display: ${({ open }) => (open ? 'block' : 'none')};
   transition: opacity 0.3s;

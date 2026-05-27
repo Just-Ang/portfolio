@@ -1,18 +1,22 @@
 import { Outlet } from 'react-router-dom';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import { LayoutWrapper, MainContent } from './SharedLayout.styled';
 
 // import { Footer } from '../Footer/Footer';
 
 const SharedLayout = () => {
   return (
     <>
+    <LayoutWrapper>
       <Header />
-       <main style={{ flex: 1 }}>
+    <MainContent>
         <Outlet />
-      </main>
-{/* 
-      <Footer /> */}
-    </>
+    </MainContent>
+ 
+      <Footer /> 
+      </LayoutWrapper>
+    </> 
   );
 };
 

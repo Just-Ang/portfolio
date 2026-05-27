@@ -43,7 +43,7 @@ export const TariffsPage = () => {
               <S.FeatureItem>До 2,5 годин зйомки</S.FeatureItem>
               <S.FeatureItem>До 40 фотографій у ретуші</S.FeatureItem>
              
-              <S.FeatureItem>Термін здачі до 3-х тижнів</S.FeatureItem>
+              <S.FeatureItem>Термін здачі до 2-х тижнів</S.FeatureItem>
             </S.FeatureList>
             <S.Price>10.000₴</S.Price>
           </S.CardContent>
@@ -64,7 +64,7 @@ export const TariffsPage = () => {
               <S.FeatureItem>Групові та індивідуальні фото в межах заходу</S.FeatureItem>
               <S.FeatureItem>До 80 фотографій у ретуші</S.FeatureItem>
               <S.FeatureItem>Усі вдалі вихідні матеріали</S.FeatureItem>
-              <S.FeatureItem>Термін здачі до 5 тижнів</S.FeatureItem>
+              <S.FeatureItem>Термін здачі до 3-x тижнів</S.FeatureItem>
             </S.FeatureList>
             <S.Price>10.000₴</S.Price>
           </S.CardContent>

@@ -4,10 +4,19 @@ import * as S from './TariffsPage.styled';
 const individualImg ='https://images.unsplash.com/photo-1534528741775-53994a69daeb';
 const familyImg = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb';
 const eventsImg = 'https://images.unsplash.com/photo-1519741497674-611481863552';
-
+import { motion } from "framer-motion";
 export const TariffsPage = () => {
   return (
     <S.SectionContainer>
+       <motion.div
+                initial={{ opacity: 0, y: 80 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeOut"
+                }}
+              >
       <S.Title>Тарифи</S.Title>
       
       <S.GridContainer>
@@ -26,7 +35,7 @@ export const TariffsPage = () => {
             <S.Price>10.000₴</S.Price>
           </S.CardContent>
           <S.CardFooter>
-            <S.CardImage src={individualImg} alt="Індивідуальна зйомка" />
+            <S.CardImage loading="lazy" src={individualImg} alt="Індивідуальна зйомка" />
             <S.Button href="https://t.me/username">
               Записатися на зйомку?
             </S.Button>
@@ -48,7 +57,7 @@ export const TariffsPage = () => {
             <S.Price>10.000₴</S.Price>
           </S.CardContent>
           <S.CardFooter>
-            <S.CardImage src={familyImg} alt="Сімейна або love-story зйомка" />
+            <S.CardImage loading="lazy" src={familyImg} alt="Сімейна або love-story зйомка" />
             <S.Button href="https://t.me/username">
               Записатися на зйомку?? чи шо
             </S.Button>
@@ -69,13 +78,14 @@ export const TariffsPage = () => {
             <S.Price>10.000₴</S.Price>
           </S.CardContent>
           <S.CardFooter>
-            <S.CardImage src={eventsImg} alt="Зйомка заходів" />
+            <S.CardImage loading="lazy" src={eventsImg} alt="Зйомка заходів" />
             <S.Button href="https://t.me/username">
               Записатися на зйомку??
             </S.Button>
           </S.CardFooter>
         </S.Card>
       </S.GridContainer>
+      </motion.div>
     </S.SectionContainer>
   );
 };

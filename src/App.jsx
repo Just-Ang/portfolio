@@ -12,12 +12,17 @@ import { ScrollToTop } from './components/ScrollToTop';
 
 
 
+
+
 function App() {
   console.log("test");
   return (
     <AppWrapper>
+       
       <GlobalStyles />
+
         <ScrollToTop />
+         
       <Routes>
         <Route path="/" element={<SharedLayout />}>
     <Route index element={<HomePage />} />
@@ -28,8 +33,11 @@ function App() {
           
          
           <Route path="*" element={<ErrorPage />} />
+         
         </Route>
       </Routes>
+      
+      
     </AppWrapper>
   );
 }

@@ -1,7 +1,7 @@
 
 import  { useState } from 'react';
 import { Container, ExpandButton, GridGallery, GridItem, Image, TabButton, TabItem, TabList, Title } from './PortfolioPage.styled';
-
+import { motion } from "framer-motion";
 
 // Категорії для табів
 const categories = [
@@ -54,6 +54,15 @@ const firstBlock = displayedPhotos.slice(0, 4);
 const restBlock = displayedPhotos.slice(4);
   return (
     <Container>
+        <motion.div
+  initial={{ opacity: 0, y: 80 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{
+    duration: 1,
+    ease: "easeOut"
+  }}
+>
       <Title>Портфоліо</Title>
       
       {/* Навігація по категоріях */}
@@ -70,21 +79,22 @@ const restBlock = displayedPhotos.slice(4);
         ))}
       </TabList>
 
-    
+  
 <GridGallery className="asymmetric">
   {firstBlock.map((photo) => (
     <GridItem key={photo.id} $type={photo.type} $layout="asymmetric">
-      <Image src={photo.src} alt={photo.alt} />
+      <Image loading="lazy" src={photo.src} alt={photo.alt} />
     </GridItem>
   ))}
 </GridGallery>
-
 {/* 🟨 РЕШТА — проста 2x2 */}
 {restBlock.length > 0 && (
-  <GridGallery className="simple">
+ 
+ 
+ <GridGallery className="simple">
     {restBlock.map((photo) => (
       <GridItem key={photo.id} $layout="simple">
-        <Image src={photo.src} alt={photo.alt} />
+        <Image loading="lazy" src={photo.src} alt={photo.alt} />
       </GridItem>
     ))}
   </GridGallery>
@@ -95,6 +105,8 @@ const restBlock = displayedPhotos.slice(4);
           Показати ще ↓
         </ExpandButton>
       )}
+      </motion.div>
+
     </Container>
   );
 };

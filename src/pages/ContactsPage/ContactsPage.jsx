@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import * as S from './ContactsPage.styled';
 import { toast, ToastContainer } from 'react-toastify';
+import { motion } from "framer-motion";
 
 export const ContactsPage = () => {
   const [formData, setFormData] = useState({ name: '', tel: '' });
@@ -57,6 +58,16 @@ export const ContactsPage = () => {
         pauseOnHover
         theme="light"
       />
+
+        <motion.div
+                initial={{ opacity: 0, y: 80 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeOut"
+                }}
+              >
       <S.Title>Контакти</S.Title>
 
       <S.FlexWrap>
@@ -94,6 +105,7 @@ export const ContactsPage = () => {
         <S.InfoColumn>
           <S.ImageWrapper>
             <S.ContactImage
+            loading="lazy"
               src={`${import.meta.env.BASE_URL}images/img4.JPG`}
               alt="Mary I Photography"
             />{' '}
@@ -175,6 +187,7 @@ export const ContactsPage = () => {
           </S.MetaRow>
         </S.InfoColumn>
       </S.FlexWrap>
+      </motion.div>
     </S.SectionContainer>
   );
 };

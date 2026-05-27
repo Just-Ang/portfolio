@@ -1345,7 +1345,7 @@ width: 100%;
   display: flex;
   flex-direction: column;
   gap: 40px;
-    border-bottom: 1px solid rgb(61, 60, 60);;
+    /* border-bottom: 1px solid rgb(61, 60, 60);; */
 
   @media screen and (min-width: 768px) {
     flex-direction: row;

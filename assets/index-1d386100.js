@@ -116,7 +116,7 @@ Error generating stack: `+i.message+`
   width: 100%;
   justify-content: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
       display: flex;
     border-top: none;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
@@ -160,7 +160,7 @@ Error generating stack: `+i.message+`
   font-weight: 600;
  
   cursor: pointer;
-   @media screen and (min-width: 768px) {
+   @media screen and (min-width: 769px) {
       display: none;
   
   }
@@ -242,7 +242,7 @@ Error generating stack: `+i.message+`
   justify-content: center;
   gap: 15px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
       display: flex;
       flex:1;
               justify-content: space-around;
@@ -352,7 +352,7 @@ Error generating stack: `+i.message+`
   gap: 25px;
 
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     max-width: 994px;
     padding: 40px 30px 25px 30px;
     
@@ -373,7 +373,7 @@ Error generating stack: `+i.message+`
   color: #333;
   text-align: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     text-align: left; 
   }
 `,Yy=P.nav`
@@ -382,7 +382,7 @@ Error generating stack: `+i.message+`
   align-items: center;
   gap: 15px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
@@ -412,7 +412,7 @@ Error generating stack: `+i.message+`
   font-size: 13px;
   color: #333;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     align-items: flex-end; 
   }
 `,Jy=P.p`
@@ -423,7 +423,7 @@ Error generating stack: `+i.message+`
   color: #888;
   margin: 0;
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
 
     grid-column: 1 / -1; 
     margin-top: 20px;
@@ -620,7 +620,7 @@ padding-bottom:70px;
 `,ix=P.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 30px;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -717,7 +717,7 @@ background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
     width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
       justify-content: space-between;
     background-image: 
     linear-gradient(
@@ -733,7 +733,7 @@ background-image: url(${"/portfolio/"}images/img5.JPG);  background-size: cover;
   }
 `,dx=P.div`
   z-index: 2;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
    max-width: 50%
   }
  @media screen and (min-width: 1200px) {
@@ -1438,7 +1438,7 @@ font-family: var(--main-font);
   height: auto;
   aspect-ratio: 16 / 10;
   object-fit: cover;
-  filter: grayscale(100%);
+  
 `,tw=P.div`
   display: flex;
   flex-direction: column;

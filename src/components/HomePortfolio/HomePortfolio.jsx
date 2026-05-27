@@ -18,7 +18,7 @@ const initialPhotos = [
         <Section>
    <Container>
    <WrapperTop>
-     <TitlePortfolio>Портфоліо</TitlePortfolio>
+     <TitlePortfolio>Портфоліооо</TitlePortfolio>
      <MoreBtn to='/portfolio'>
 Переглянути портфоліо
     </MoreBtn>

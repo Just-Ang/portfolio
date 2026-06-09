@@ -25,13 +25,13 @@ export const ContactsPage = () => {
           body: JSON.stringify({
             chat_id: CHAT_ID,
             text: text,
-            parse_mode: 'Markdown', // щоб текст був жирним
+            parse_mode: 'Markdown', 
           }),
         }
       );
 
       if (response.ok) {
-        toast.info(`Дякую, ${formData.name}! Я зв'яжусь з вами.`, {
+        toast.info(`Дякую, ${formData.name}! Я зв'яжусь з вами незабаром.`, {
           icon: false,
         });
         setFormData({ name: '', tel: '' });
@@ -40,7 +40,7 @@ export const ContactsPage = () => {
       }
     } catch (error) {
       console.error('Помилка:', error);
-      alert('Щось пішло не так...');
+  
     }
   };
 
@@ -106,7 +106,7 @@ export const ContactsPage = () => {
           <S.ImageWrapper>
             <S.ContactImage
             loading="lazy"
-              src={`${import.meta.env.BASE_URL}images/img4.JPG`}
+              src={`${import.meta.env.BASE_URL}images/img4.webp`}
               alt="Mary I Photography"
             />{' '}
           </S.ImageWrapper>

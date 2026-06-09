@@ -1,9 +1,9 @@
 
 import * as S from './TariffsPage.styled';
 
-const individualImg ='https://images.unsplash.com/photo-1534528741775-53994a69daeb';
-const familyImg = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb';
-const eventsImg = 'https://images.unsplash.com/photo-1519741497674-611481863552';
+const individualImg =`${import.meta.env.BASE_URL}images/img6.webp`;
+const familyImg = `${import.meta.env.BASE_URL}images/img7.webp`;
+const eventsImg = `${import.meta.env.BASE_URL}images/img9.webp`;
 import { motion } from "framer-motion";
 export const TariffsPage = () => {
   return (

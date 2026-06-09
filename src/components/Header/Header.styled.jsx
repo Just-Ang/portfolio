@@ -166,10 +166,11 @@ export const MenuContent = styled.nav`
 `;
 
 export const StyledLink = styled(Link)`
+font-family:var(--second-font);
   text-decoration: none;
   font-size: 20px;
-  font-weight: 500;
-  color: #2c2c2c;
+  font-weight: 800;
+  color:var(--black-color);
   display: flex;
   align-items: center;
   gap: 15px;

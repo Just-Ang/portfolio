@@ -1,11 +1,10 @@
 
 import styled from 'styled-components';
 
-// 1. Описываем стилизованные компоненты
 export const HeroSection = styled.section`
 
 
-background-image: url(${import.meta.env.BASE_URL}images/img5.JPG);  background-size: cover;
+background-image: url(${import.meta.env.BASE_URL}images/img5.webp);  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -31,13 +30,17 @@ background-image: url(${import.meta.env.BASE_URL}images/img5.JPG);  background-s
       rgba(0, 0, 0, 0.6),   
       rgba(0, 0, 0, 0)      
     ),
-    url(${import.meta.env.BASE_URL}images/img3.JPG)
+    url(${import.meta.env.BASE_URL}images/img3.webp)
  
   }
  @media screen and (min-width: 1200px) {
    
   }
 `;
+
+
+
+
 
 export const Content = styled.div`
   z-index: 2;

@@ -14,18 +14,18 @@ const categories = [
 
 
 const initialPhotos = [
-  { id: 1, category: 'events', src: 'https://images.unsplash.com/photo-1519741497674-611481863552', type: 'small', alt: 'Весілля пара' },
-  { id: 2, category: 'events', src: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6', type: 'small', alt: 'Наречена біля вікна' },
-  { id: 3, category: 'portrait', src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb', type: 'wide', alt: 'Портрет дівчини в кашкеті' },
-  { id: 4, category: 'portrait', src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d', type: 'tall', alt: 'Обійми на пероні' },
+  { id: 1, category: 'events', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Весілля пара' },
+  { id: 2, category: 'events', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Наречена біля вікна' },
+  { id: 3, category: 'portrait', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'wide', alt: 'Портрет дівчини в кашкеті' },
+  { id: 4, category: 'portrait', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'tall', alt: 'Обійми на пероні' },
   // Додаткові фото для демонстрації фільтру та кнопки "Показати ще"
-  { id: 5, category: 'brands', src: 'https://images.unsplash.com/photo-1485462537746-965f33f7f6a7', type: 'small', alt: 'Бренд зйомка' },
-  { id: 6, category: 'objects',src: `${import.meta.env.BASE_URL}images/img4.JPG`, type: 'small', alt: 'Предметний кадр' },
-    { id: 7, category: 'objects', src: `${import.meta.env.BASE_URL}images/img5.JPG`, type: 'small', alt: 'Предметний кадр' },
-        { id: 8, category: 'objects', src: `${import.meta.env.BASE_URL}images/img7.JPG`, type: 'tall', alt: 'Предметний кадр' },
-            { id: 9, category: 'objects', src: `${import.meta.env.BASE_URL}images/img9.JPG`, type: 'wide', alt: 'Предметний кадр' },
-             { id: 10, category: 'objects', src: `${import.meta.env.BASE_URL}images/img10.JPG`, type: 'wide', alt: 'Предметний кадр' },
-                          { id: 11, category: 'objects', src: `${import.meta.env.BASE_URL}images/img3.JPG`, type: 'wide', alt: 'Предметний кадр' },
+  { id: 5, category: 'brands', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Бренд зйомка' },
+  { id: 6, category: 'objects',src: `${import.meta.env.BASE_URL}images/img4.webp`, type: 'small', alt: 'Предметний кадр' },
+    { id: 7, category: 'objects', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Предметний кадр' },
+        { id: 8, category: 'objects', src: `${import.meta.env.BASE_URL}images/img7.webp`, type: 'tall', alt: 'Предметний кадр' },
+            { id: 9, category: 'objects', src: `${import.meta.env.BASE_URL}images/img9.webp`, type: 'wide', alt: 'Предметний кадр' },
+             { id: 10, category: 'objects', src: `${import.meta.env.BASE_URL}images/img10.webp`, type: 'wide', alt: 'Предметний кадр' },
+                          { id: 11, category: 'objects', src: `${import.meta.env.BASE_URL}images/img3.webp`, type: 'wide', alt: 'Предметний кадр' },
 
 
 

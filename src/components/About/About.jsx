@@ -18,9 +18,10 @@ const About = () => {
       <AboutSection>
         <LeftContent>
 <MainPhoto
-  src={`${import.meta.env.BASE_URL}images/img9.JPG`}
+  src={`${import.meta.env.BASE_URL}images/img9.webp`}
   alt="main-photo"
-  loading="lazy"
+  loading="eager"
+    decoding="async"
 />
           <DescriptionWrapper>
             <Title>Про мене</Title>
@@ -41,8 +42,8 @@ const About = () => {
         </LeftContent>
 
         <RightGallery>
-          <TopImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/img8.JPG`} alt="top-image" />
-          <BottomImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/img10.JPG`} alt="bottom-image" />
+          <TopImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/img8.webp`} alt="top-image" />
+          <BottomImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/img10.webp`} alt="bottom-image" />
         </RightGallery>
       </AboutSection>
     </Container>

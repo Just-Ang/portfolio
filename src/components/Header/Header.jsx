@@ -25,7 +25,8 @@ export default function Header()
     <HeaderSection>
       <HeaderContainer>
   
-        <Logo to="/">Diana J.</Logo>
+        <Logo to="/">Diana J.
+</Logo>
 
           <Menu></Menu>
               <MenuButton onClick={() => setMenuOpen(!menuOpen)}>

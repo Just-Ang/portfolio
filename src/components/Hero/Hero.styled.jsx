@@ -4,8 +4,12 @@ import styled from 'styled-components';
 export const HeroSection = styled.section`
 
 
-background-image: url(${import.meta.env.BASE_URL}images/hero1.webp);  background-size: cover;
-  background-position: center;
+background-image:
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(${import.meta.env.BASE_URL}images/hero1.webp);
+
+background-size: cover;
+background-position: center;  background-position: center;
   background-repeat: no-repeat;
 
   background-color: #111111;

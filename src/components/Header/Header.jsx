@@ -15,7 +15,7 @@ import {
 } from './Header.styled';
 import { Menu } from '../Menu/Menu';
 import { useState } from 'react';
-import { BriefcaseBusiness, Home, Info, Mail, MessageCircleMore, TextAlignJustify, X } from 'lucide-react';
+import { BriefcaseBusiness, Home, Mail, MessageCircleMore, TextAlignJustify, X } from 'lucide-react';
 
 
 export default function Header()
@@ -25,7 +25,7 @@ export default function Header()
     <HeaderSection>
       <HeaderContainer>
   
-        <Logo to="/">Diana J.
+        <Logo to="/">Danylo L.
 </Logo>
 
           <Menu></Menu>
@@ -44,9 +44,6 @@ export default function Header()
                     <Home  color="#663f88" size={22} strokeWidth={1.5} /> Головна
                   </StyledLink>
 
-                  <StyledLink onClick={() => setMenuOpen(false)} to="/about">
-                    <Info color="#663f88" size={22} strokeWidth={1.5} /> Про мене
-                  </StyledLink>
                   <StyledLink  onClick={() => setMenuOpen(false)} to="/portfolio">
                    <BriefcaseBusiness color="#663f88" size={22} strokeWidth={1.5} />Портфоліо</StyledLink>
                   <StyledLink onClick={() => setMenuOpen(false)} to="/tariffs">

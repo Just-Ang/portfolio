@@ -13,11 +13,10 @@ const Footer = () => {
 
   return (
     <FooterContainer>
-      <FooterLogo>Diana J.</FooterLogo>
+      <FooterLogo>Danylo L.</FooterLogo>
       
       <FooterNav>
         <FooterLink to="/">Головна</FooterLink>
-        <FooterLink to="about">Про мене</FooterLink>
         <FooterLink to="portfolio">Портфоліо</FooterLink>
         <FooterLink to="tariffs">Тарифи</FooterLink>
         <FooterLink to="contacts">Контакти</FooterLink>

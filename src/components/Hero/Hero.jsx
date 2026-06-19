@@ -5,9 +5,9 @@ export default function Hero() {
     <HeroSection>
       <Content>
         <Subtitle>Фотограф</Subtitle>
-        <Title>Діана Прізвище</Title>
+        <Title>Данило Левицький</Title>
         <Description>
-          Сучасні та креативні зйомки бла бла бла бла 
+          Сучасні та креативні зйомки
         </Description>
         <OutlineButton>запис</OutlineButton>
       </Content>

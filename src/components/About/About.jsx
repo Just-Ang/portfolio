@@ -18,7 +18,7 @@ const About = () => {
       <AboutSection>
         <LeftContent>
 <MainPhoto
-  src={`${import.meta.env.BASE_URL}images/img9.webp`}
+  src={`${import.meta.env.BASE_URL}images/me3.webp`}
   alt="main-photo"
   loading="eager"
     decoding="async"
@@ -27,23 +27,20 @@ const About = () => {
             <Title>Про мене</Title>
           <Wrapper>
               <Description>
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-              consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui
-              doloribus totam.{' '}
+              Я — фотограф, який бачить красу в щирих емоціях і справжніх моментах. Моя мета — не просто зробити фото, а зберегти історії, настрій та спогади, які залишаться з вами на все життя.
+
             </Description>
 
             <Description>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-              consequatur adipisci nobis atque quibusdam ipsam dolor quasi qui
-              doloribus totam.{' '}
+             У кожній зйомці для мене важливі довіра, комфорт і природність. Я прагну створювати кадри, в яких люди впізнають себе справжніми, а кожна фотографія викликає теплі емоції навіть через багато років.
             </Description>
           </Wrapper>
           </DescriptionWrapper>
         </LeftContent>
 
         <RightGallery>
-          <TopImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/img8.webp`} alt="top-image" />
-          <BottomImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/img10.webp`} alt="bottom-image" />
+          <TopImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/me1.webp`} alt="top-image" />
+          <BottomImage  loading="lazy" src={`${import.meta.env.BASE_URL}images/me2.webp`} alt="bottom-image" />
         </RightGallery>
       </AboutSection>
     </Container>

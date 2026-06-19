@@ -15,7 +15,7 @@ export const GlobalStyles = createGlobalStyle`
  
   --main-font: IBM Plex Sans;
   --second-font: Poiret One;
-  --logo-font: Dancing Script;
+  --logo-font: Audiowide Static;
   --background-color: #f6e1d338;
   --light-grey: #c1c1c1;
   --second-background: #f9f7f2;

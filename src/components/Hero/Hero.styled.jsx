@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const HeroSection = styled.section`
 
 
-background-image: url(${import.meta.env.BASE_URL}images/img5.webp);  background-size: cover;
+background-image: url(${import.meta.env.BASE_URL}images/hero1.webp);  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -30,7 +30,7 @@ background-image: url(${import.meta.env.BASE_URL}images/img5.webp);  background-
       rgba(0, 0, 0, 0.6),   
       rgba(0, 0, 0, 0)      
     ),
-    url(${import.meta.env.BASE_URL}images/img3.webp)
+    url(${import.meta.env.BASE_URL}images/hero2.webp)
  
   }
  @media screen and (min-width: 1200px) {
@@ -45,7 +45,9 @@ background-image: url(${import.meta.env.BASE_URL}images/img5.webp);  background-
 export const Content = styled.div`
   z-index: 2;
   @media screen and (min-width: 769px) {
-   max-width: 50%
+   max-width: 50%;
+     
+
   }
  @media screen and (min-width: 1200px) {
    

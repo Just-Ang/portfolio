@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const categories = [
     { id: 'objects', label: 'Природа' },
   { id: 'portrait', label: 'Портрети' },
-  { id: 'brands', label: 'Сімейні' },
+  { id: 'family', label: 'Сімейні' },
   
   { id: 'events', label: 'Заходи' }
 ];
@@ -16,16 +16,33 @@ const categories = [
 const initialPhotos = [
   { id: 1, category: 'events', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Весілля пара' },
   { id: 2, category: 'events', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Наречена біля вікна' },
-  { id: 3, category: 'portrait', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'wide', alt: 'Портрет дівчини в кашкеті' },
-  { id: 4, category: 'portrait', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'tall', alt: 'Обійми на пероні' },
-  // Додаткові фото для демонстрації фільтру та кнопки "Показати ще"
-  { id: 5, category: 'brands', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Бренд зйомка' },
-  { id: 6, category: 'objects',src: `${import.meta.env.BASE_URL}images/img4.webp`, type: 'small', alt: 'Предметний кадр' },
-    { id: 7, category: 'objects', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Предметний кадр' },
-        { id: 8, category: 'objects', src: `${import.meta.env.BASE_URL}images/img7.webp`, type: 'tall', alt: 'Предметний кадр' },
-            { id: 9, category: 'objects', src: `${import.meta.env.BASE_URL}images/img9.webp`, type: 'wide', alt: 'Предметний кадр' },
-             { id: 10, category: 'objects', src: `${import.meta.env.BASE_URL}images/img10.webp`, type: 'wide', alt: 'Предметний кадр' },
-                          { id: 11, category: 'objects', src: `${import.meta.env.BASE_URL}images/img3.webp`, type: 'wide', alt: 'Предметний кадр' },
+  { id: 3, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait4.webp`, type: 'small', alt: 'Портрет' },
+   { id: 4, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait2.webp`, type: 'small', alt: 'Портрет ' },
+    { id: 5, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait1.webp`, type: 'wide', alt: 'Портрет ' },
+     { id: 6, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait3.webp`, type: 'tall', alt: 'Портрет' },
+          { id: 7, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait5.webp`, type: 'small', alt: 'Портрет' },
+                    { id: 8, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait6.webp`, type: 'small', alt: 'Портрет' },
+
+                    { id: 9, category: 'objects', src: `${import.meta.env.BASE_URL}images/nature1.webp`, type: 'small', alt: 'Портрет' },
+   { id: 10, category: 'objects', src: `${import.meta.env.BASE_URL}images/nature2.webp`, type: 'small', alt: 'Портрет ' },
+    { id: 11, category: 'objects', src: `${import.meta.env.BASE_URL}images/nature4.webp`, type: 'wide', alt: 'Портрет ' },
+     { id: 12, category: 'objects', src: `${import.meta.env.BASE_URL}images/nature3.webp`, type: 'tall', alt: 'Портрет' },
+          { id: 13, category: 'objects', src: `${import.meta.env.BASE_URL}images/nature5.webp`, type: 'small', alt: 'Портрет' },
+                    { id: 14, category: 'objects', src: `${import.meta.env.BASE_URL}images/nature6.webp`, type: 'small', alt: 'Портрет' },
+
+
+                      { id: 15, category: 'family', src: `${import.meta.env.BASE_URL}images/family1.webp`, type: 'small', alt: 'Портрет' },
+   { id: 16, category: 'family', src: `${import.meta.env.BASE_URL}images/family2.webp`, type: 'small', alt: 'Портрет ' },
+    { id: 17, category: 'family', src: `${import.meta.env.BASE_URL}images/family4.webp`, type: 'wide', alt: 'Портрет ' },
+     { id: 18, category: 'family', src: `${import.meta.env.BASE_URL}images/family3.webp`, type: 'tall', alt: 'Портрет' },
+          { id: 19, category: 'family', src: `${import.meta.env.BASE_URL}images/family5.webp`, type: 'small', alt: 'Портрет' },
+                    { id: 20, category: 'family', src: `${import.meta.env.BASE_URL}images/family6.webp`, type: 'small', alt: 'Портрет' },
+
+
+
+
+
+
 
 
 

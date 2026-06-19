@@ -696,8 +696,12 @@ padding-bottom:70px;
 `,qT=()=>S.jsx(BT,{children:S.jsxs(UT,{children:[S.jsxs(WT,{children:[S.jsx(KT,{src:"/portfolio/images/me3.webp",alt:"main-photo",loading:"eager",decoding:"async"}),S.jsxs(YT,{children:[S.jsx(HT,{children:"Про мене"}),S.jsxs(GT,{children:[S.jsx(eh,{children:"Я — фотограф, який бачить красу в щирих емоціях і справжніх моментах. Моя мета — не просто зробити фото, а зберегти історії, настрій та спогади, які залишаться з вами на все життя."}),S.jsx(eh,{children:"У кожній зйомці для мене важливі довіра, комфорт і природність. Я прагну створювати кадри, в яких люди впізнають себе справжніми, а кожна фотографія викликає теплі емоції навіть через багато років."})]})]})]}),S.jsxs(XT,{children:[S.jsx(QT,{loading:"lazy",src:"/portfolio/images/me1.webp",alt:"top-image"}),S.jsx(ZT,{loading:"lazy",src:"/portfolio/images/me2.webp",alt:"bottom-image"})]})]})}),JT=R.section`
 
 
-background-image: url(${"/portfolio/"}images/hero1.webp);  background-size: cover;
-  background-position: center;
+background-image:
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(${"/portfolio/"}images/hero1.webp);
+
+background-size: cover;
+background-position: center;  background-position: center;
   background-repeat: no-repeat;
 
   background-color: #111111;

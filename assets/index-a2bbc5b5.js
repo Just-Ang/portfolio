@@ -878,7 +878,7 @@ grid-template-columns: 1fr;
   aspect-ratio: 4 / 3;
    aspect-ratio: 4 / 3;
  ${e=>e.$layout==="asymmetric"&&e.$type==="tall"&&`
-    aspect-ratio: 2 / 3;
+   aspect-ratio: 1 / 2;
   `}
   @media screen and (min-width: 768px) {
 
@@ -1096,7 +1096,7 @@ grid-template-columns: 1fr;
 
   aspect-ratio: 4 / 3;
  ${e=>e.$layout==="asymmetric"&&e.$type==="tall"&&`
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 1 / 2;
   `}
  
 

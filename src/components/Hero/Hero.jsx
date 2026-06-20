@@ -9,7 +9,7 @@ export default function Hero() {
         <Description>
           Сучасні та креативні зйомки
         </Description>
-        <OutlineButton>запис</OutlineButton>
+        <OutlineButton href="https://t.me/username">запис</OutlineButton>
       </Content>
       
     </HeroSection>

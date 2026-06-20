@@ -89,7 +89,7 @@ export const Description = styled.p`
   font-weight: 300;
 `;
 
-export const OutlineButton = styled.button`
+export const OutlineButton = styled.a`
   border: 1px solid #ffffff;
   color: #ffffff;
   padding: 0.8rem 2rem;

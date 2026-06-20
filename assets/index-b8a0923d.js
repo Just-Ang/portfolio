@@ -767,7 +767,7 @@ background-position: center;  background-position: center;
   color: #cccccc;
   margin-bottom: 2.5rem;
   font-weight: 300;
-`,iC=R.button`
+`,iC=R.a`
   border: 1px solid #ffffff;
   color: #ffffff;
   padding: 0.8rem 2rem;
@@ -791,7 +791,7 @@ background-position: center;  background-position: center;
     object-fit: cover;
     filter: grayscale(20%);
   }
-`;function oC(){return S.jsx(JT,{children:S.jsxs(eC,{children:[S.jsx(tC,{children:"Фотограф"}),S.jsx(nC,{children:"Данило Левицький"}),S.jsx(rC,{children:"Сучасні та креативні зйомки"}),S.jsx(iC,{children:"запис"})]})})}const sC=R.section`
+`;function oC(){return S.jsx(JT,{children:S.jsxs(eC,{children:[S.jsx(tC,{children:"Фотограф"}),S.jsx(nC,{children:"Данило Левицький"}),S.jsx(rC,{children:"Сучасні та креативні зйомки"}),S.jsx(iC,{href:"https://t.me/username",children:"запис"})]})})}const sC=R.section`
     /* background-color:#ede4f566; */
     width: 100vw;
     margin-left: calc(50% - 50vw);

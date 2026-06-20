@@ -106,7 +106,7 @@ export const ContactsPage = () => {
           <S.ImageWrapper>
             <S.ContactImage
             loading="lazy"
-              src={`${import.meta.env.BASE_URL}images/img4.webp`}
+              src={`${import.meta.env.BASE_URL}images/me2.webp`}
               alt="Mary I Photography"
             />{' '}
           </S.ImageWrapper>
@@ -114,7 +114,7 @@ export const ContactsPage = () => {
           <S.MetaRow>
             <S.LocationBlock>
               <S.MetaLabel>Локація</S.MetaLabel>
-              <S.LocationText>Київ — Конотоп</S.LocationText>
+              <S.LocationText>Київ</S.LocationText>
             </S.LocationBlock>
 
             <S.SocialBlock>

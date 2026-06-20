@@ -30,7 +30,7 @@ const Footer = () => {
       </FooterContacts>
 
       <Copyright>
-        &copy; {currentYear} Diana J. Photography. All rights reserved.
+        &copy; {currentYear} Danylo L. Photography. All rights reserved.
       </Copyright>
     </FooterContainer>
   );

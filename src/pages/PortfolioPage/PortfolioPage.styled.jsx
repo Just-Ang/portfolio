@@ -121,6 +121,10 @@ export const GridItem = styled.div`
   background-color: #f9f9f9;
 
   aspect-ratio: 4 / 3;
+ ${props => props.$layout === 'asymmetric' && props.$type === 'tall' && `
+    aspect-ratio: 2 / 3;
+  `}
+ 
 
   @media screen and (min-width: 768px) {
 

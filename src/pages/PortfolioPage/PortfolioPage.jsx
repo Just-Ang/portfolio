@@ -5,17 +5,18 @@ import { motion } from "framer-motion";
 
 // Категорії для табів
 const categories = [
-    { id: 'objects', label: 'Природа' },
-  { id: 'portrait', label: 'Портрети' },
+    { id: 'portrait', label: 'Портрети' },
+
+
   { id: 'family', label: 'Сімейні' },
   
-  { id: 'events', label: 'Заходи' }
+  { id: 'events', label: 'Заходи' },
+      { id: 'objects', label: 'Природа' },
 ];
 
 
 const initialPhotos = [
-  { id: 1, category: 'events', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Весілля пара' },
-  { id: 2, category: 'events', src: `${import.meta.env.BASE_URL}images/img5.webp`, type: 'small', alt: 'Наречена біля вікна' },
+
   { id: 3, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait4.webp`, type: 'small', alt: 'Портрет' },
    { id: 4, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait2.webp`, type: 'small', alt: 'Портрет ' },
     { id: 5, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait1.webp`, type: 'wide', alt: 'Портрет ' },
@@ -38,6 +39,13 @@ const initialPhotos = [
           { id: 19, category: 'family', src: `${import.meta.env.BASE_URL}images/family5.webp`, type: 'small', alt: 'Портрет' },
                     { id: 20, category: 'family', src: `${import.meta.env.BASE_URL}images/family6.webp`, type: 'small', alt: 'Портрет' },
 
+                                          { id: 21, category: 'events', src: `${import.meta.env.BASE_URL}images/event1.webp`, type: 'small', alt: 'Портрет' },
+   { id: 22, category: 'events', src: `${import.meta.env.BASE_URL}images/event2.webp`, type: 'small', alt: 'Портрет ' },
+    { id: 23, category: 'events', src: `${import.meta.env.BASE_URL}images/event3.webp`, type: 'wide', alt: 'Портрет ' },
+     { id: 24, category: 'events', src: `${import.meta.env.BASE_URL}images/event4.webp`, type: 'tall', alt: 'Портрет' },
+          { id: 25, category: 'events', src: `${import.meta.env.BASE_URL}images/event5.webp`, type: 'small', alt: 'Портрет' },
+                    { id: 26, category: 'events', src: `${import.meta.env.BASE_URL}images/event6.webp`, type: 'small', alt: 'Портрет' },
+
 
 
 
@@ -49,7 +57,7 @@ const initialPhotos = [
 ];
 
 export const PortfolioPage = () => {
-  const [activeTab, setActiveTab] = useState('objects');
+  const [activeTab, setActiveTab] = useState('portrait');
   const [visibleCount, setVisibleCount] = useState(4); 
 
   const handleTabChange = (tabId) => {

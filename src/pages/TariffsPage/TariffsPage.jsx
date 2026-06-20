@@ -1,9 +1,9 @@
 
 import * as S from './TariffsPage.styled';
 
-const individualImg =`${import.meta.env.BASE_URL}images/img6.webp`;
-const familyImg = `${import.meta.env.BASE_URL}images/img7.webp`;
-const eventsImg = `${import.meta.env.BASE_URL}images/img9.webp`;
+const individualImg =`${import.meta.env.BASE_URL}images/portrait2.webp`;
+const familyImg = `${import.meta.env.BASE_URL}images/family1.webp`;
+const eventsImg = `${import.meta.env.BASE_URL}images/event1.webp`;
 import { motion } from "framer-motion";
 export const TariffsPage = () => {
   return (
@@ -32,12 +32,12 @@ export const TariffsPage = () => {
              
               <S.FeatureItem>Термін здачі до 2-х тижнів</S.FeatureItem>
             </S.FeatureList>
-            <S.Price>10.000₴</S.Price>
+            <S.Price>5.000₴</S.Price>
           </S.CardContent>
           <S.CardFooter>
             <S.CardImage loading="lazy" src={individualImg} alt="Індивідуальна зйомка" />
             <S.Button href="https://t.me/username">
-              Записатися на зйомку?
+              Записатися на зйомку
             </S.Button>
           </S.CardFooter>
         </S.Card>
@@ -54,12 +54,12 @@ export const TariffsPage = () => {
              
               <S.FeatureItem>Термін здачі до 2-х тижнів</S.FeatureItem>
             </S.FeatureList>
-            <S.Price>10.000₴</S.Price>
+            <S.Price>7.000₴</S.Price>
           </S.CardContent>
           <S.CardFooter>
             <S.CardImage loading="lazy" src={familyImg} alt="Сімейна або love-story зйомка" />
             <S.Button href="https://t.me/username">
-              Записатися на зйомку?? чи шо
+              Записатися на зйомку
             </S.Button>
           </S.CardFooter>
         </S.Card>
@@ -75,12 +75,12 @@ export const TariffsPage = () => {
               <S.FeatureItem>Усі вдалі вихідні матеріали</S.FeatureItem>
               <S.FeatureItem>Термін здачі до 3-x тижнів</S.FeatureItem>
             </S.FeatureList>
-            <S.Price>10.000₴</S.Price>
+            <S.Price>15.000₴</S.Price>
           </S.CardContent>
           <S.CardFooter>
             <S.CardImage loading="lazy" src={eventsImg} alt="Зйомка заходів" />
             <S.Button href="https://t.me/username">
-              Записатися на зйомку??
+              Записатися на зйомку
             </S.Button>
           </S.CardFooter>
         </S.Card>

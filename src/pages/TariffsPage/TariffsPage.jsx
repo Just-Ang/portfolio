@@ -2,7 +2,7 @@
 import * as S from './TariffsPage.styled';
 
 const individualImg =`${import.meta.env.BASE_URL}images/portrait2.webp`;
-const familyImg = `${import.meta.env.BASE_URL}images/family1.webp`;
+const familyImg = `${import.meta.env.BASE_URL}images/family4.webp`;
 const eventsImg = `${import.meta.env.BASE_URL}images/event1.webp`;
 import { motion } from "framer-motion";
 export const TariffsPage = () => {

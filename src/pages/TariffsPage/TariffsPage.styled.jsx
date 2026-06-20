@@ -157,7 +157,7 @@ export const CardImage = styled.img`
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border-radius: 4px;
-  filter: grayscale(100%); 
+  filter: grayscale(30%); 
   transition: filter 0.3s ease;
 
   &:hover {

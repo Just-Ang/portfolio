@@ -19,9 +19,9 @@ const initialPhotos = [
 
   { id: 3, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait4.webp`, type: 'small', alt: 'Портрет' },
    { id: 4, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait2.webp`, type: 'small', alt: 'Портрет ' },
-    { id: 5, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait1.webp`, type: 'wide', alt: 'Портрет ' },
+    { id: 5, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait5.webp`, type: 'wide', alt: 'Портрет ' },
      { id: 6, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait3.webp`, type: 'tall', alt: 'Портрет' },
-          { id: 7, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait5.webp`, type: 'small', alt: 'Портрет' },
+          { id: 7, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait1.webp`, type: 'small', alt: 'Портрет' },
                     { id: 8, category: 'portrait', src: `${import.meta.env.BASE_URL}images/portrait6.webp`, type: 'small', alt: 'Портрет' },
 
                     { id: 9, category: 'objects', src: `${import.meta.env.BASE_URL}images/nature1.webp`, type: 'small', alt: 'Портрет' },
